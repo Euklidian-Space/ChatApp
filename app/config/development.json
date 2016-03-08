@@ -1,0 +1,4 @@
+{
+  "host": "http://localhost:3000",
+  "dbURI": "mongodb://Euklidian-Space:Fs1123581321@ds023398.mlab.com:23398/chattycatty"
+}
