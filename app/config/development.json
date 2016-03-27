@@ -1,4 +1,17 @@
 {
   "host": "http://localhost:3000",
-  "dbURI": "mongodb://Euklidian-Space:Fs1123581321@ds023398.mlab.com:23398/chattycatty"
+  "dbURI": "mongodb://Euklidian-Space:Fs1123581321@ds023398.mlab.com:23398/chattycatty",
+  "sessionSecret": "catscanfly",
+  "fb": {
+    "clientID": "247594288908392",
+    "clientSecret": "812ef93d17f1a1513e79af17fbd1cfa7",
+    "callbackURL": "//localhost:3000/auth/facebook/callback",
+    "profileFields": ["id", "displayName", "photos"]
+  },
+  "twitter": {
+    "consumerKey": "YMaOmyjtqi85Fhq64RCWbZykn",
+    "consumerSecret": "Udw9xVFNLKOaFteCqCoqfBmx21qLpGKwZRKEUNCHNHoyvwdJza",
+    "callcackURL": "//localhost:3000/auth/twitter/callback",
+    "profileFields": ["id", "displayName","photos"]
+  }
 }
